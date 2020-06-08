@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mpl-toolkits.clifford
+Version: 0.0.3
+Summary: Matplotlib tools for clifford
+Home-page: UNKNOWN
+Author: Eric Wieser
+License: MIT
+Project-URL: Bug Tracker, https://github.com/pygae/mpl_toolkits.clifford/issues
+Project-URL: Source Code, https://github.com/pygae/mpl_toolkits.clifford
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: clifford
+Requires-Dist: matplotlib
+Requires-Dist: trimesh
+
+`mpl_toolkits.clifford`
+=======================
+
+[![PyPI](https://img.shields.io/pypi/v/mpl-toolkits.clifford)](https://pypi.org/project/mpl-toolkits.clifford)
+
+A python package for plotting the multivectors of Geometric Algebra, from
+the [`clifford`][] package, using [`matplotlib`][].
+
+See the `examples` directory for more info.
+
+Unlike [`pyganja`][], this does all the plotting from within python, meaning that animations and interaction are possible.
+
+This package exposes a single function, `mpl_toolkits.clifford.plot(ax, objs, **kwargs)`.
+
+[`clifford`]: https://github.com/pygae/clifford
+[`pyganja`]: https://github.com/pygae/pyganja
+[`matplotlib`]: https://matplotlib.org/
+
+
